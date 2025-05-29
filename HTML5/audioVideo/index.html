@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <style>
+        body, h1 {
+            padding: 0;
+            margin: 0;
+            font-family: arial;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            /* background-color: rgba(0,0,0, 0.3); */
+            background-image: linear-gradient(to right, rgba(0, 242, 96, 0.3), rgba(33, 140, 247, 0));
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 3em;
+            position: relative;
+            min-height: 100vh;
+            overflow: hidden;
+
+        }
+
+        .video-bg {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -1;
+        }
+
+    </style> -->
+    <title>Audio & Video</title>
+</head>
+<body>
+    <!-- <audio src="audio/dj.mp3" controls></audio> -->
+
+     <!-- <figure>
+        <figcaption>
+            Dengarkan "DJ - Akbar bernyayi"
+        </figcaption>
+        <audio controls autoplay loop muted>
+            <source src="audio/dj.mp3" type="audio/mpeg">
+        </audio>
+     </figure> -->
+
+     <!-- <video src="video/laut.mp4" width="400" controls></video> -->
+
+     <!-- <figure>
+        <figcaption>
+            Laut Senja
+        </figcaption>
+        <video width="400" poster="poster/bg.png" loop autoplay muted>
+            <source src="video/laut.mp4" type="video/mp4">
+            browser tidak mendukung tag <code>videos</code>
+        </video>
+     </figure> -->
+
+     <!-- <div class="hero">
+        <h1>Hello, Welcome to Bagus</h1>
+        <video class="video-bg" src="video/laut.mp4" autoplay muted loop></video>
+     </div> -->
+    
+     <video controls width="400">
+        <source src="video/videoPakSandhika.mp4" type="video/mp4">
+        <track src="captions/caption2.vtt" kind="captions" title="Bahasa Indonesia" srclang="id"></track>
+        <track src="captions/caption2.vtt" kind="captions" title="English" srclang="en"></track>
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Q2VqCG13ejA?si=mwIIfXv8kjTPsQx9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </body>
+</html>
