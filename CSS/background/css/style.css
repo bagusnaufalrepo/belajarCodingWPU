@@ -1,0 +1,10 @@
+/* body {
+    background-color: white;
+    background-image: url(/css/gambar/puun.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+} */
+
+body {
+    background: url(/css/gambar/puun.png) lightblue no-repeat top center;
+}

@@ -1,0 +1,17 @@
+h1 {
+    /* color: #c412e3; */
+    color: rgba(149,18,18,1);
+    font-size: 150px;
+    text-transform: capitalize;
+}
+
+p {
+    /* text-align: justify; */
+    text-indent: 100px;
+    /* letter-spacing: 5px; */
+    /* word-spacing: 10px; */
+}
+
+a {
+    text-decoration: none;
+}
